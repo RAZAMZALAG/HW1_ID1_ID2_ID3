@@ -1,3 +1,9 @@
+"""
+__init__.py
+
+This module defines the Flask app factory function `create_app`.
+It sets up the Flask application, configures it, and registers the main blueprints.
+"""
 from flask import Flask
 
 def create_app():
